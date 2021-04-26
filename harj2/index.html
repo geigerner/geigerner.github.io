@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="fi">
+    <title>Caius Geiger</title>
+    <!--© Caius Geiger-->
+    <head>
+        <!--muotoilut alla-->
+        <style>
+           body {background-color:rgb(151, 157, 167); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;} /*Taustan väri ja fontti*/   
+           .main {padding: 16px; margin-top: 30px;height: 1500px;} /*Layout sisällölle jotta toimii yläpalkin kanssa oikein*/
+            h1 {color:rgba(25, 25, 26, 0.966); text-align: center;} /*Pääotsikon väri ja positio*/
+           .center {display: block;margin-left: auto;margin-right: auto; width: 10%;} /*attribuutti kuvan keskitystä varten*/
+           .navbar {overflow: hidden; background-color:rgb(49, 62, 75); position:fixed; top: 0; width: 100%;} /*yläpalkin muotoilu*/
+           .navbar a {float: left; display:block; color: #f2f2f2; text-align:center; padding: 14px 16px; text-decoration: none;} /*yläpalkin solujen muotoilu*/
+           .navbar a:hover {color:black; background: rgb(240, 235, 235);} /*yläpalkin solujen muotoilu kun aktiivisena*/
+        </style> 
+    </head>
+
+    <body>
+        <!--Yläpalkki-->
+        <div class="navbar">
+            <a href="index.html"><img src=icons\home.png alt="Home" height=20px> &nbsp; Etusivu</a>
+            <a href="Tyokokemus/Tyokokemus.html"><img src=icons\business-partner.png alt="Business-partner" height=20px> &nbsp; Työkokemus</a>
+            <a href="IT-portfolio/IT-portfolio.html"><img src=icons\manager.png alt="Manager" height=20px> &nbsp; IT-osaaminen</a>
+        </div>
+        <!--Varsinainen sisältö-->
+        <div class="main">
+            <!--pääotsikko-->
+            <h1>Caius Geiger</h1>
+            <!--kuva-->
+            <img src=images\caius_geiger.jpg alt="Caius" class="center">
+            <!--Lyhyt kuvaus itsestä-->
+            <p>Työskentelen 
+            <a href="https://www.kesko.fi">Kesko Oyj:lla</a> logistiikkasuunnittelijana. Käytän työssäni VBA:ta ja erinlaisia RPA-ratkaisuita. Pyrin laajentamaan osaamistani tutkinnolla johon olen nyt hakenut.
+            </p>    
+            <p>Ennalta olen suorittanut tietojenkäsittelyn opintoja noin 30 opintopisteen verran avoimessa yliopistossa.</p>
+            <!--Otsikko 2.-->
+            <h2><strong>Harrastukset:</strong></h2>
+                <!--luettelointi-->
+                <ul>
+                    <li>Tennis</li>
+                    <li>Matkustaminen</li>
+                    <li>Koiran kanssa ulkoilu</li>
+                 </ul>
+            <h3><strong>Yhteystiedot</strong></h3>
+                <address><em>Email: <a href="mailto:n9118@student.jamk.fi">n9118@student.jamk.fi</a></em></address>
+                <address><em>Puh.nro 0408233788</em></address>
+        </div>
+    </body>
+    </html>
